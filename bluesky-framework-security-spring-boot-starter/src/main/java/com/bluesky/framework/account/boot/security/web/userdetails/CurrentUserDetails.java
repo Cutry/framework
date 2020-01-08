@@ -1,0 +1,65 @@
+package com.bluesky.framework.account.boot.security.web.userdetails;
+
+import com.bluesky.framework.account.account.Account;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.AuthorityUtils;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import java.util.Collection;
+import java.util.List;
+
+/**
+ * current user details
+ *
+ * @author liyang
+ */
+public class CurrentUserDetails extends Account implements UserDetails {
+
+    private List<GrantedAuthority> grantedAuthorities;
+
+    public CurrentUserDetails(Account account) {
+        super.setId(account.getId());
+        super.setName(account.getName());
+        super.setMobile(account.getMobile());
+        super.setDepartment(account.getDepartment());
+        super.setAuthoritiesText(account.getAuthoritiesText());
+        super.setPassword(account.getPassword());
+        super.setRoleId(account.getRoleId());
+        super.setRoleType(account.getRoleType());
+        super.setOrganizationId(account.getOrganizationId());
+        super.setYxdwId(account.getYxdwId());
+        super.setCompanyId(account.getCompanyId());
+        this.grantedAuthorities = AuthorityUtils.commaSeparatedStringToAuthorityList(account.getAuthoritiesText());
+
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return grantedAuthorities;
+    }
+
+    @Override
+    public String getUsername() {
+        return String.valueOf(getId());
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
+}
