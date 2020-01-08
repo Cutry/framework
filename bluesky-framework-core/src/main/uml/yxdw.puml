@@ -1,0 +1,37 @@
+@startuml
+
+class Creditunit<<用信单位>> {
+    - id
+    - dwname 单位名称
+    - uscc 统一社会信用代码
+    - legalPerson 法定代表人
+    - dwType 类型：1银行/2贷款机构...
+    - address 住所
+    - zcmoney 注册资金
+    - scope 业务经营范围
+    - starttime 成立时间
+    - contact 联系人
+    - contactCrad 联系人身份证号
+    - phone 联系方式（手机号）
+    - license 营业执照附件
+    - hisInfo 历史信息
+}
+
+
+class Role<<角色>> {
+    - id
+    - type 类型：1平台系统/2政务单位/3个人认证/4企业认证
+    - level 级别：-1无/1省级/2市级/3区县级
+    - name 名称
+    - status 状态：0正常，-5删除
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+
+
+Creditunit --> Role
+
+
+
+@enduml

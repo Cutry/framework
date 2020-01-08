@@ -1,0 +1,33 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.account.mapper.AccountAuthorityMapper">
+    <resultMap type="com.bluesky.framework.account.auth.AccountAuthority" id="AccountAuthorityResultMap">
+        <id property="id" column="id"/>
+        <result property="accountId" column="account_id"/>
+        <result property="operationId" column="operation_id"/>
+        <result property="operation" column="operation"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+    <insert id="saveAuthorities" parameterType="java.util.List">
+        insert into account_authority(account_id, operation_id, operation, created_at, updated_at)
+        VALUES
+        <foreach collection="accountAuthorityList" index="i" item="accountAuthority" open="" separator="," close="">
+            (#{accountAuthority.accountId}, #{accountAuthority.operationId}, #{accountAuthority.operation},now(),now())
+        </foreach>
+        ;
+    </insert>
+
+    <delete id="deleteByAccountIdsAndOperationId">
+        delete
+        from account_authority
+        where operation_id = #{operationId} and
+        account_id in
+        <foreach collection="accountIds" index="i" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

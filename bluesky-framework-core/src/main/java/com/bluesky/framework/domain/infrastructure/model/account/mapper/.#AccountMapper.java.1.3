@@ -1,0 +1,84 @@
+package com.bluesky.framework.domain.infrastructure.model.account.mapper;
+
+import com.bluesky.framework.account.account.Account;
+import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.StatementType;
+
+import java.util.List;
+
+public interface AccountMapper {
+    @Insert("insert into account " +
+            "(name, nick_name,head_img, mobile,role_type, role_id, organization_id, department, id_card, password, last_login_ip, last_login_time, authorities_text, sort, status, created_at, updated_at, yxdw_id) " +
+            "values " +
+            "(#{account.name},#{account.nickName},#{account.headImg},#{account.mobile},#{account.roleType},#{account.roleId},#{account.organizationId},#{account.department},#{account.idCard},#{account.password},#{account.lastLoginIp},#{account.lastLoginTime},#{account.authoritiesText},#{account.sort},#{account.status},now(),now(),#{account.yxdwId})")
+    @SelectKey(before = false, keyProperty = "account.id", resultType = Long.class, statementType = StatementType.STATEMENT, statement = "SELECT LAST_INSERT_ID() AS id")
+    void insert(@Param("account") Account account);
+
+
+    @ResultMap("AccountResultMap")
+    @Select("select * from account where id = #{id}")
+    Account findOne(@Param("id") Long id);
+
+    /**
+     * 通过手机号查找用户
+     * @param mobile
+     * @return
+     */
+    @ResultMap("AccountResultMap")
+    @Select("select * from account where mobile = #{mobile}")
+    Account findOneByMobile(@Param("mobile") String mobile);
+
+    /**
+     * 根据手机号查找
+     *
+     * @param mobile   手机
+     * @param roleType 角色类型
+     * @see com.bluesky.framework.account.constant.RoleType
+     */
+    List<Account> findByMobile(@Param("mobile") String mobile, @Param("roleType") List<Integer> roleType);
+
+
+    /**
+     * 根据角色id查询所有用户id
+     *
+     * @param roleId 角色id
+     * @return 所有的用户ids
+     */
+    @Select("select id from account where role_id = #{roleId} and status != -15")
+    List<Long> findIdsByRoleId(@Param("roleId") long roleId);
+
+
+    void update(@Param("account") Account account);
+
+
+    /**
+     * 批量修改状态
+     *
+     * @param ids    账号id
+     * @param status 新状态
+     */
+    void batchUpdateStatus(@Param("ids") List<Long> ids, @Param("status") int status);
+
+
+    /**
+     * 批量修改状态
+     *
+     * @param mobiles   账号mobile
+     * @param status    新状态
+     */
+    void batchUpdateStatusByMobile(@Param("mobiles") List<Long> mobiles, @Param("status") int status);
+
+
+    /**
+     * 条件查询
+     *
+     * @param name           姓名
+     * @param mobile         手机号
+     * @param organizationId 单位id
+     * @param roleId         角色id
+     * @param status         状态
+     * @see com.bluesky.framework.account.constant.AccountStatus
+     */
+    List<Account> findByCondition(@Param("name") String name, @Param("mobile") String mobile, @Param("organizationId") Long organizationId, @Param("roleId") Long roleId, @Param("status") Integer status);
+
+}

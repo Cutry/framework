@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.setting.mapper.MenuSourceMapper">
+    <resultMap id="MenuSourceResultMap" type="com.bluesky.framework.setting.menu.MenuSource">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result property="code" column="code"/>
+        <result property="name" column="name"/>
+        <result property="url" column="url"/>
+        <result property="backgroundColor" column="background_color"/>
+        <result property="icon" column="icon"/>
+        <result property="iconColor" column="icon_color"/>
+        <result property="color" column="color"/>
+        <result property="systemMenu" column="system_menu"/>
+        <result property="parentId" column="parent_id"/>
+        <result property="seq" column="seq"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+
+    <update id="updateStyle">
+        update menu_source
+        <set>
+            <if test="menuSource.backgroundColor != null and menuSource.backgroundColor != ''">
+                background_color = #{menuSource.backgroundColor},
+            </if>
+            <if test="menuSource.icon != null and menuSource.icon != ''">
+                icon = #{menuSource.icon},
+            </if>
+            <if test="menuSource.iconColor != null and menuSource.iconColor != ''">
+                icon_color = #{menuSource.iconColor},
+            </if>
+            <if test="menuSource.color != null and menuSource.color != ''">
+                color = #{menuSource.color}
+            </if>
+        </set>
+        where id=#{menuSource.id}
+    </update>
+
+    <select id="findByIds" resultMap="MenuSourceResultMap" parameterType="java.util.List">
+        select * from menu_source
+        where id in
+        <foreach collection="ids" index="i" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+        order by parent_id,seq
+    </select>
+
+    <update id="sortMenuSource">
+        <foreach item="value" index="key" collection="data.entrySet()" separator=";" >
+            update menu_source set seq = ${value} where id = #{key}
+        </foreach>
+    </update>
+
+</mapper>

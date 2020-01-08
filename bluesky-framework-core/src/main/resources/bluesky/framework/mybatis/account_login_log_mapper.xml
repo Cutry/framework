@@ -1,0 +1,38 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.account.mapper.AccountLoginLogMapper">
+    <resultMap type="com.bluesky.framework.account.log.AccountLoginLog" id="AccountLoginLogResultMap">
+        <id property="id" column="id"/>
+        <result property="accountId" column="account_id"/>
+        <result property="accountName" column="account_name"/>
+        <result property="organizationId" column="organization_id"/>
+        <result property="organizationName" column="organization_name"/>
+        <result property="mobile" column="mobile"/>
+        <result property="ip" column="ip"/>
+        <result property="ipArea" column="ip_area"/>
+        <result property="type" column="type"/>
+        <result property="success" column="success"/>
+        <result property="memo" column="memo"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+
+    <select id="findByCondition" parameterType="java.util.Map" resultMap="AccountLoginLogResultMap">
+        select * from account_login_log
+        where 1=1
+        <if test="accountName != null and accountName != ''">
+            and account_name like concat('%',#{accountName},'%')
+        </if>
+        <if test="type != null">
+            and type = #{type}
+        </if>
+        <if test="success != null">
+            and success = #{success}
+        </if>
+        order by created_at desc
+    </select>
+
+</mapper>

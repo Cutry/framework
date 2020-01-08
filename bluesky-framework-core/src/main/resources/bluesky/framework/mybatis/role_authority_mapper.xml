@@ -1,0 +1,32 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.account.mapper.RoleAuthorityMapper">
+    <resultMap type="com.bluesky.framework.account.auth.RoleAuthority" id="RoleAuthorityResultMap">
+        <id property="id" column="id"/>
+        <result property="roleId" column="role_id"/>
+        <result property="operationId" column="operation_id"/>
+        <result property="operation" column="operation"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+    <insert id="saveAuthorities" parameterType="java.util.List">
+        insert into role_authority(role_id, operation_id, operation, created_at, updated_at)
+        VALUES
+        <foreach collection="roleAuthorityList" index="i" item="roleAuthority" open="" separator="," close="">
+            (#{roleAuthority.roleId}, #{roleAuthority.operationId}, #{roleAuthority.operation},now(),now())
+        </foreach>
+        ;
+    </insert>
+
+    <select id="findByRoleIds" resultMap="RoleAuthorityResultMap">
+        select * from role_authority
+        where role_id in
+        <foreach collection="roleIds" item="roleId" open="(" separator="," close=")">
+            #{roleId}
+        </foreach>
+    </select>
+
+</mapper>

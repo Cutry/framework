@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="false"/>
+    </settings>
+    <typeAliases>
+        <typeAlias alias="Account" type="com.bluesky.framework.account.account.Account"/>
+        <typeAlias alias="Region" type="com.bluesky.framework.account.region.Region"/>
+        <typeAlias alias="Organization" type="com.bluesky.framework.account.organization.Organization"/>
+        <typeAlias alias="Role" type="com.bluesky.framework.account.role.Role"/>
+        <typeAlias alias="AccountLoginLog" type="com.bluesky.framework.account.log.AccountLoginLog"/>
+        <typeAlias alias="AccountOperateLog" type="com.bluesky.framework.account.log.AccountOperateLog"/>
+    </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql"/>
+            <property name="reasonable" value="false"/>
+        </plugin>
+    </plugins>
+
+</configuration>

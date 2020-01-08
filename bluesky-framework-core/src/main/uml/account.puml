@@ -1,0 +1,196 @@
+@startuml
+
+class Account<<账户>> {
+    - id
+    - name 姓名
+    - nickName 昵称
+    - headImg 头像
+    - mobile 手机号
+    - roleType 类型：1平台系统/2政务单位/3个人认证/4企业认证
+    - roleId 用户角色id
+    - organizationId 单位id
+    - department 所在部门
+    - idCard 身份证号
+    - password 密码
+    - lastLoginIp 上次登录ip
+    - lastLoginTime 上次登录时间
+    - authoritiesText 角色权限
+    - sort 顺序
+    - status 状态:0启用，-5禁用，-10锁定，-15删除
+    - createdAt  创建时间
+    - updatedAt  更新时间
+}
+
+class PersonalUserVerification<<个人认证用户核验>> {
+    - id
+    - accountId 核验通过生成账户id
+    - name 姓名
+    - mobile 手机号
+    - idCard 身份证号
+    - nationality 名族
+    - connectAddress 联系地址
+    - email 邮箱
+    - idCardHandImg 手持身份证照片
+    - idCardImg 身份证照片
+    - verificationAt 核验时间
+    - status 状态：0待核验，5核验通过，-5核验失败
+    - createdAt  创建时间
+    - updatedAt  更新时间
+}
+
+class EntUserVerification<<企业认证用户核验>> {
+    - id
+    - accountId 核验通过生成账户id
+    - entName 企业名称
+    - UnifiedSocialCreditCode 统一社会信用代码
+    - licenseImg 营业执照图片
+    - address 企业地址
+    - largePerson 企业法人姓名
+    - mobile 手机号
+    - idCard 身份证号
+    - email 邮箱
+    - idCardHandImg 手持身份证照明
+    - idCardImg 身份证照明
+    - verificationAt 核验时间
+    - status 状态：0待核验，5核验通过，-5核验失败
+    - createdAt  创建时间
+    - updatedAt  更新时间
+}
+
+class Role<<角色>> {
+    - id
+    - type 类型：1平台系统/2政务单位/3个人认证/4企业认证
+    - level 级别：-1无/1省级/2市级/3区县级
+    - name 名称
+    - status 状态：0正常，-5删除
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+
+class Organization<<单位>> {
+    - id
+    - code 编码
+    - name 单位名称
+    - fullName 单位全称
+    - UnifiedSocialCreditCode 统一社会信用代码
+    - parentId 上级单位id
+    - areaCode 地区编码
+    - regionId 省市区id
+    - status 状态:状态：0启用，-5禁用,-10删除
+    - sort 顺序
+    - memo 备注信息
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+
+class Region<<省市区>> {
+    - id
+    - name 名称
+    - level 级别：-1无/1省级/2市级/3区县级
+    - code 行政区划代码
+    - parentId 父级id
+    - parentCode 父级编码
+    - top 顶级节点：0非最顶级节点，1是最顶级节点
+    - leaf 末节点:0非末节点，1末节点
+    - status 0正常，-5删除
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+class AccountLoginLog<<账号登录日志>> {
+    - id
+    - accountId 账号id
+    - accountName 账号名称
+    - organizationId 单位id
+    - organizationName 单位名称
+    - mobile 手机号
+    - ip ip地址
+    - ipArea ip地址所在区域
+    - type 1登录/2注销
+    - success 1成功/-1失败
+    - memo 备注说明
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+class AccountOperateLog<<账号操作日志>> {
+    - id
+    - accountId 账号id
+    - accountName 账号名称
+    - organizationId 单位id
+    - organizationName 单位名称
+    - mobile 手机号
+    - ip ip地址
+    - ipArea ip地址所在区域
+    - stepCode 步骤编码
+    - step 步骤
+    - memo 备注说明
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+class RoleAuthority<<角色对应权限>> {
+    - id
+    - roleId 角色ID
+    - operationId 操作权限ID
+    - operation 操作权限
+    - createdAt  创建时间
+}
+
+class AccountAuthority<<用户对应权限>> {
+     - id
+     - accountId 用户ID
+     - operationId 操作权限ID
+     - operation 操作权限
+     - createdAt  创建时间
+}
+
+package SystemSetting {
+    class MenuSource<<菜单资源>>{
+        - id
+        - code 菜单编码
+        - name 菜单名称
+        - parentId 父菜单ID
+        - createdAt  创建时间
+        - updatedAt  修改日期
+    }
+
+    class MenuSourceOperation<<菜单资源操作项>>{
+        - id
+        - menuId
+        - operation 操作
+        - operationName 操作名称
+        - createdAt  创建时间
+        - updatedAt  修改日期
+    }
+
+    MenuSourceOperation -> MenuSource
+}
+
+class ApiAccount<<第三方接口用户>> {
+    - id
+    - name 第三方名称
+    - apiKey api key
+    - secret api密钥
+    - status 状态：0停用，1启用
+    - createdAt  创建时间
+    - updatedAt  更新时间
+}
+
+Account --> EntUserVerification
+Account --> Role
+Account --> Organization
+Organization --> Region
+Account <-down- AccountLoginLog
+Account <-down- AccountOperateLog
+Account <-right- PersonalUserVerification
+
+
+RoleAuth --> Role
+RoleAuth -up-> MenuSourceOperation
+AccountAuthority --> MenuSourceOperation
+AccountAuthority --> Account
+
+@enduml

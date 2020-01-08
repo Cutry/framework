@@ -1,0 +1,64 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.account.mapper.RegionMapper">
+    <resultMap type="com.bluesky.framework.account.region.Region" id="RegionResultMap">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="level" column="level"/>
+        <result property="code" column="code"/>
+        <result property="parentId" column="parent_id"/>
+        <result property="parentCode" column="parent_code"/>
+        <result property="top" column="top"/>
+        <result property="leaf" column="leaf"/>
+        <result property="status" column="status"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+    <update id="update" parameterType="com.bluesky.framework.account.region.Region">
+        update region
+        set
+        <if test="region.name != null and region.name != ''">
+            name = #{region.name},
+        </if>
+        <if test="region.level != null">
+            level = #{region.level},
+        </if>
+        <if test="region.code != null and region.code != ''">
+            code = #{region.code},
+        </if>
+        <if test="region.parentId != null">
+            parent_id = #{region.parentId},
+        </if>
+        <if test="region.parentCode != null and region.parentCode != ''">
+            parent_code = #{region.parentCode},
+        </if>
+        <if test="region.top != null">
+            top = #{region.top},
+        </if>
+        <if test="region.leaf != null">
+            leaf = #{region.leaf},
+        </if>
+        <if test="region.status != null">
+            status = #{region.status},
+        </if>
+        updated_at = now()
+        where id = #{region.id}
+    </update>
+
+
+    <update id="updateSystemLevel" parameterType="java.util.Map">
+        update region
+        set top = true
+        where level = #{level}
+          and status != -5
+          and top = false;
+        update region
+        set top = false
+        where top = true
+          and status != -5
+          and level != #{level}
+    </update>
+</mapper>

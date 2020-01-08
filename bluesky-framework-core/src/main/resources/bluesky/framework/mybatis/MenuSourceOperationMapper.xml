@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.setting.mapper.MenuSourceOperationMapper">
+    <resultMap id="MenuSourceOperationResultMap" type="com.bluesky.framework.setting.menu.MenuSourceOperation">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result property="menuId" column="menu_id"/>
+        <result property="parentMenuIds" column="parent_menu_ids"/>
+        <result property="operation" column="operation"/>
+        <result property="operationName" column="operation_name"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+    <select id="findByIds"  resultMap="MenuSourceOperationResultMap" parameterType="java.util.List">
+        select * from menu_source_operation
+        where id in
+        <foreach collection="ids" index="i" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+        order by menu_id
+    </select>
+
+    <!-- 根据菜单IDs删除 -->
+    <delete id="deleteByMenuIds" parameterType="java.util.List">
+        delete from menu_source_operation
+        where menu_id in
+        <foreach collection="menuIds" index="i" item="menuId" open="(" separator="," close=")">
+            #{menuId}
+        </foreach>
+    </delete>
+
+</mapper>

@@ -1,0 +1,41 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluesky.framework.domain.infrastructure.model.account.mapper.AccountOperateLogMapper">
+    <resultMap type="com.bluesky.framework.account.log.AccountOperateLog" id="AccountOperateLogResultMap">
+        <id property="id" column="id"/>
+        <result property="accountId" column="account_id"/>
+        <result property="accountName" column="account_name"/>
+        <result property="organizationId" column="organization_id"/>
+        <result property="organizationName" column="organization_name"/>
+        <result property="mobile" column="mobile"/>
+        <result property="ip" column="ip"/>
+        <result property="ipArea" column="ip_area"/>
+        <result property="stepCode" column="step_code"/>
+        <result property="step" column="step"/>
+        <result property="memo" column="memo"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+
+    <select id="findByCondition" parameterType="java.util.Map" resultMap="AccountOperateLogResultMap">
+        select *
+        from account_operate_log
+        where
+        1=1
+        <if test="accountName != null and accountName != ''">
+            and account_name like concat('%',#{accountName},'%')
+        </if>
+        <if test="timeStart != null">
+            and created_at >= #{timeStart}
+        </if>
+        <if test="timeEnd != null">
+            and created_at <![CDATA[<=]]> #{timeEnd}
+        </if>
+        order by created_at desc
+    </select>
+
+
+</mapper>

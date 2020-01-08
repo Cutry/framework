@@ -1,0 +1,50 @@
+@startuml
+
+/'数据目录'/
+class pageSetting<<页面配置>>{
+ - id
+ - page 1登录页、2首页、3工作页、4版权信息
+ - type 类型：Logo、background、method、theme
+ - value 值
+ - operatorId 操作人ID
+ - createdAt  创建时间
+ - updatedAt 修改日期
+}
+
+class CustomIndex<<首页个性化>>{
+    - id
+    - accountId 账户ID
+    - menuIds 菜单资源ID
+    - createdAt  创建时间
+}
+
+class MenuSource<<菜单资源>>{
+    - id
+    - code 菜单编码
+    - name 菜单名称
+    - url 自定义菜单的链接地址,空则空白页
+    - backgroundColor 首页展示背景颜色
+    - icon 图标
+    - iconColor 图标颜色
+    - color 首页名称颜色
+    - parentId 父菜单ID
+    - seq 顺序
+    - systemMenu 是否系统菜单
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+class MenuSourceOperation<<菜单资源操作项>>{
+    - id
+    - menuId 所属菜单ID
+    - parentMenuIds 所属菜单的父IDs
+    - operation 操作
+    - operationName 操作名称
+    - createdAt  创建时间
+    - updatedAt  修改日期
+}
+
+MenuSourceOperation -> MenuSource
+CustomIndex -> MenuSource
+
+@enduml
