@@ -1,0 +1,63 @@
+server:
+    port: 2608
+
+spring:
+    application:
+        name: bluesky-framework-api
+    # dubbo
+    dubbo:
+        app: dubbo-bluesky-framework-api
+        registry: redis://dubbo.bluesky.net:6379
+        protocol: dubbo
+        threads: 200
+
+    http:
+        multipart:
+            max-file-size: 20Mb
+            max-request-size: 100Mb
+
+# info
+info:
+    domain: localhost
+    app:
+        name: bluesky-framework-api
+        version: 1.0.0-SNAPSHOT
+        description: bluesky framework api
+        group: framework
+        groupId: 26
+        tags: framework
+    owner:
+        developer: liyang
+        tester: liyang
+    account:
+        login:
+            url: http://${info.domain}/login
+        logout:
+            url: http://${info.domain}/logout
+
+
+# logger
+logging:
+    level:
+        root: info
+    file: bluesky-framework-api.log
+
+endpoints:
+    health:
+        sensitive: false
+dir:
+    #营业执照存储位置
+    businessLicense: C:\Users\Administrator\Desktop\TestFloder\img\
+    #身份证存储位置
+    IdCard: C:\Users\Administrator\Desktop\TestFloder\img\
+
+
+management:
+    security:
+        enabled: false
+security:
+    basic:
+        enabled: false
+
+bluesky:
+    version: v1.0.0
