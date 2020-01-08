@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-api/bluesky-framework-api.iml" filepath="$PROJECT_DIR$/bluesky-framework-api/bluesky-framework-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-common/bluesky-framework-common.iml" filepath="$PROJECT_DIR$/bluesky-framework-common/bluesky-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-core/bluesky-framework-core.iml" filepath="$PROJECT_DIR$/bluesky-framework-core/bluesky-framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-parent.iml" filepath="$PROJECT_DIR$/bluesky-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/bluesky-framework-security-spring-boot-starter.iml" filepath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/bluesky-framework-security-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-server/bluesky-framework-server.iml" filepath="$PROJECT_DIR$/bluesky-framework-server/bluesky-framework-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluesky-framework-spring-boot-starter/bluesky-framework-spring-boot-starter.iml" filepath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/bluesky-framework-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e7f89b1-3683-460a-8572-1f96c3a4fca9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_3_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bluesky_common_bluesky_common_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bluesky_common_bluesky_core_common_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itext_asian_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dbunit_dbunit_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymockclassextension_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvnsearch_ddd_ddd_base_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvnsearch_spring_boot_spring_boot_starter_dubbo_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_core_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_database_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_dbmaintainer_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_dbunit_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_easymock_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_inject_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_io_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_mock_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unitils_unitils_spring_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlunit_xmlunit_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/FrameworkApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/application/FrameworkApiErrors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/FileUpload/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/account/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/account/LoginController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/account/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/article/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/auth/AccountAuthorityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/auth/RoleAuthorityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/common/FrameworkSecurityConfigurerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/common/IPUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/config/SystemConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/log/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/organization/OrganizationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/region/RegionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/role/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/setting/MenuSourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/setting/PageSettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/controller/sysParam/SysParamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/event/LogEventProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/util/IDCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/com/bluesky/framework/api/util/SendData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/classes/i18n/FrameworkApiErrors_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-api/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/bluesky-framework-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/FileUpload/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/FileUpload/FileUploadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/SysParam/SysParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/SysParam/SysParamManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/SysParam/SysParamVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/account/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/auth/AccountAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/auth/AccountAuthorityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/auth/RoleAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/auth/RoleAuthorityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/AccountLoginLogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/AccountLoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/AdministrativeLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/OperateLogStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/OrganizationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/RegionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/RoleStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/constant/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/log/AccountLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/log/AccountLoginLogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/log/AccountOperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/log/AccountOperateLogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/organization/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/organization/OrganizationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/region/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/region/RegionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/region/RegionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/role/RoleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/account/verification/PersonalUserVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/article/ArticleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/MenuSourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/PageSettingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/menu/CustomIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/menu/MenuSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/menu/MenuSourceOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/setting/page/PageSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/bluesky-framework-common-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/bluesky-framework-common-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/FileUpload/FileUpload$FileUploadBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/FileUpload/FileUpload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/FileUpload/FileUploadManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/SysParam/SysParam$SysParamBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/SysParam/SysParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/SysParam/SysParamManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/SysParam/SysParamVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/account/Account$AccountBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/account/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/account/AccountManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/AccountAuthority$AccountAuthorityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/AccountAuthority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/AccountAuthorityManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/RoleAuthority$RoleAuthorityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/RoleAuthority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/auth/RoleAuthorityManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/AccountLoginLogType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/AccountLoginResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/AccountStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/AdministrativeLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/OperateLogStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/OrganizationStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/RegionStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/RoleStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/constant/RoleType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountLoginLog$AccountLoginLogBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountLoginLogManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountOperateLog$AccountOperateLogBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountOperateLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/log/AccountOperateLogManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/organization/Organization$OrganizationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/organization/Organization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/organization/OrganizationManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/region/Region$RegionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/region/Region.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/region/RegionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/region/RegionVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/role/Role$RoleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/role/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/role/RoleManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/verification/PersonalUserVerification$PersonalUserVerificationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/account/verification/PersonalUserVerification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/article/Article$ArticleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/article/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/article/ArticleManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/MenuSourceManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/PageSettingManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/menu/CustomIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/menu/MenuSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/menu/MenuSourceOperation$MenuSourceOperationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/menu/MenuSourceOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/page/PageSetting$Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/page/PageSetting$PageSettingBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/page/PageSetting$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/classes/com/bluesky/framework/setting/page/PageSetting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-common/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/.#bluesky-framework-core.iml.1.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/bluesky-framework-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/application/BlueskyFrameworkErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/AccountAddEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/AccountEventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/AuthorityEventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/LoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/RegionCodeUpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/RegionEventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/event/RoleAuthorityDeleteEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/factory/account/AuthorityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/factory/account/OrganizationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/factory/account/RegionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/factory/setting/MenuSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/factory/account/AuthorityFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/factory/account/OrganizationFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/factory/account/RegionFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/factory/setting/MenuSourceFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/FileUpload/FileUploadRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/FileUpload/mapper/FileUploadMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/AccountAuthorityRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/AccountLoginLogRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/AccountOperateLogRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/AccountRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/OrganizationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/RegionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/RoleAuthorityRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/RoleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/.#AccountMapper.java.1.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/.#AccountMapper.java.1.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountOperateLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/OrganizationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/RegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/RoleAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/account/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/article/ArticleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/article/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/MenuSourceOperationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/MenuSourceRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/PageSettingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/mapper/MenuSourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/mapper/MenuSourceOperationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/setting/mapper/PageSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/sysParam/SysParamRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/sysParam/mapper/SysParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/FileUpload/FileUploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/AccountAuthorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/AccountLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/AccountOperateLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/OrganizationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/RoleAuthorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/account/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/article/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/setting/MenuSourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/setting/PageSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/sysParam/SysParamServicceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/specification/settting/MenuSourceSpecImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/FileUpload/FileUploadRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/.#AccountRepository.java.1.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/AccountAuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/AccountLoginLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/AccountOperateLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/OrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/RegionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/RoleAuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/account/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/article/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/setting/MenuSourceOperationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/setting/MenuSourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/setting/PageSettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/sysParam/SysParamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/FileUpload/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/AccountAuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/AccountLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/AccountOperateLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/OrganizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/RoleAuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/article/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/setting/MenuSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/setting/PageSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/sysParam/SysParamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/specification/setting/MenuSourceSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/appContext-domain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/MenuSourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/MenuSourceOperationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/PageSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_authority_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_login_log_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_operate_log_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/article_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/file_upload_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/organization_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/region_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/role_authority_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/role_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/sys_param_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/i18n/BlueskyFrameworkErrors_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/uml/account.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/uml/setting.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/src/main/uml/yxdw.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/META-INF/bluesky-framework-core.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/appContext-domain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/MenuSourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/MenuSourceOperationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/PageSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/account_authority_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/account_login_log_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/account_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/account_operate_log_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/article_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/file_upload_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/organization_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/region_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/role_authority_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/role_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/bluesky/framework/mybatis/sys_param_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/application/BlueskyFrameworkErrors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/AccountAddEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/AccountEventProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/AuthorityEventProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/LoginEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/RegionCodeUpdateEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/RegionEventProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/event/RoleAuthorityDeleteEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/factory/account/AuthorityFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/factory/account/OrganizationFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/factory/account/RegionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/factory/setting/MenuSourceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/factory/account/AuthorityFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/factory/account/OrganizationFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/factory/account/RegionFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/factory/setting/MenuSourceFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/FileUpload/FileUploadRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/FileUpload/mapper/FileUploadMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/AccountAuthorityRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/AccountLoginLogRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/AccountOperateLogRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/AccountRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/OrganizationRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/RegionRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/RoleAuthorityRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/RoleRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountAuthorityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountLoginLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/AccountOperateLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/OrganizationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/RegionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/RoleAuthorityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/account/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/article/ArticleRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/article/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/MenuSourceOperationRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/MenuSourceRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/PageSettingRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/mapper/MenuSourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/mapper/MenuSourceOperationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/setting/mapper/PageSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/sysParam/SysParamRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/model/sysParam/mapper/SysParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/FileUpload/FileUploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/AccountAuthorityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/AccountLoginLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/AccountOperateLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/OrganizationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/RegionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/RoleAuthorityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/account/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/article/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/setting/MenuSourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/setting/PageSettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/service/sysParam/SysParamServicceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/infrastructure/specification/settting/MenuSourceSpecImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/FileUpload/FileUploadRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/AccountAuthorityRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/AccountLoginLogRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/AccountOperateLogRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/AccountRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/OrganizationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/RegionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/RoleAuthorityRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/account/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/article/ArticleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/setting/MenuSourceOperationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/setting/MenuSourceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/setting/PageSettingRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/model/sysParam/SysParamRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/FileUpload/FileUploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/AccountAuthorityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/AccountLoginLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/AccountOperateLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/OrganizationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/RegionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/RoleAuthorityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/account/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/article/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/setting/MenuSourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/setting/PageSettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/service/sysParam/SysParamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/com/bluesky/framework/domain/specification/setting/MenuSourceSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/classes/i18n/BlueskyFrameworkErrors_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/maven-status/maven-compiler-plugin/testCompile/java-test-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/maven-status/maven-compiler-plugin/testCompile/java-test-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/surefire-reports/TEST-com.bluesky.framework.common.UnitilsCheckTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/surefire-reports/TEST-com.bluesky.framework.domain.infrastructure.model.account.AccountRepositoryImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/surefire-reports/com.bluesky.framework.common.UnitilsCheckTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-core/target/surefire-reports/com.bluesky.framework.domain.infrastructure.model.account.AccountRepositoryImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/bluesky-framework-security-spring-boot-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/AuthorizationHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/FrameworkWebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/MyLoginUrlAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/MyWebSecurityExpressionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/PermissionEvaluatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/RestAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/SecurityWebAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/TokenBasedRememberMeServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/userdetails/.#CurrentUserDetails.java.1.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/userdetails/CurrentAccountControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/userdetails/CurrentUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/java/com/bluesky/framework/account/boot/security/web/userdetails/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/src/main/resources/META-INF/spring.provides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/META-INF/spring.provides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/AuthorizationHeaderFilter$AuthorizationHeaderWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/AuthorizationHeaderFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/FrameworkWebSecurityConfigurerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/MyLoginUrlAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/MyWebSecurityExpressionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/PermissionEvaluatorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/RestAccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/SecurityWebAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/TokenBasedRememberMeServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/userdetails/CurrentAccountControllerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/userdetails/CurrentUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/classes/com/bluesky/framework/account/boot/security/web/userdetails/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/bluesky-framework-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/FrameworkServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/FileUpload/FileUploadManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/AccountAuthorityManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/AccountLoginLogMangerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/AccountManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/AccountOperateLogManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/OrganizationManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/RegionManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/RoleAuthorityManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/RoleManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/article/ArticleManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/setting/MenuSourceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/setting/PageSettingManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/sysParam/SysParamManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/FrameworkServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/FileUpload/FileUploadManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/AccountAuthorityManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/AccountLoginLogMangerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/AccountManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/AccountOperateLogManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/OrganizationManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/RegionManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/RoleAuthorityManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/account/RoleManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/article/ArticleManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/setting/MenuSourceManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/setting/PageSettingManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/classes/com/bluesky/framework/server/sysParam/SysParamManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/bluesky-framework-spring-boot-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/java/com/bluesky/framework/boot/FrameworkAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/java/com/bluesky/framework/boot/FrameworkProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/resources/META-INF/spring.provides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/classes/META-INF/spring.provides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/classes/com/bluesky/framework/boot/FrameworkAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/classes/com/bluesky/framework/boot/FrameworkProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluesky_framework.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy_api.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy_api.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy_server.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy_server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1cf073b03faa679cf8b8108df9e9c117.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/9169f3121fc8ce7f176102d95e087ebd.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/QQ图片20190704093606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ff2d0e12cc938ba21f6c28836eaa9e4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190701104741.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190701105133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705111943.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705111951.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705112807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705131423.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705131431.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705131434.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190705131547.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709084619.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709084701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709093025.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709093120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709093128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130426.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130435.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130449.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130506.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130521.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130527.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130533.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130541.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709130552.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709131737.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190709131821.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190710133227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715084311.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715084355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715084358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715084417.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715084504.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715085010.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715085032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133649.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133657.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133729.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133737.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133832.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133851.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133853.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133903.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133915.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133940.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133945.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190715133948.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/微信图片_20190716132323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/必读.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-common/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-core/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-api/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-security-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/bluesky-framework-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="SHOW_OUTPUT" value="true" />
+    <option name="OVERRIDE_EXISTING_TAG_FOR_PROJECT" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bluesky-framework-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loading</find>
+      <find>/list</find>
+      <find>FinenceResultMap</find>
+      <find>lendTime</find>
+      <find>FinanceSettleResultMap</find>
+      <find>accountAuthorityService</find>
+      <find>all_tree_under_level</find>
+      <find>child</find>
+      <find>异议</find>
+      <find>sm_creditarchives_manage</find>
+      <find>hand</find>
+      <find>/yxdw</find>
+      <find>yxdwId</find>
+      <find>batchUpdateStatusByMobile</find>
+      <find>yxdw_id</find>
+      <find>basic</find>
+      <find>/handle</find>
+      <find>id</find>
+      <find>/companyRz</find>
+      <find>list</find>
+      <find>/creditDissent</find>
+      <find>/finence/</find>
+      <find>/finproinfo</find>
+      <find>/handleRecord</find>
+      <find>/finence</find>
+      <find>&quot;/cre</find>
+      <find>&quot;/handleRecord</find>
+      <find>delegatingApplicationListener</find>
+      <find>AccountAuthorityService</find>
+      <find>AuditRecord</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\bluesky-framework\bluesky-framework-core\src\main\resources\bluesky\framework\mybatis</dir>
+      <dir>D:\bluesky-framework\bluesky-framework-common\src\main\java\com\bluesky\framework\account</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/offer/OfferManagerImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/offer/OfferRepository.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/offer/OfferRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/offer/Offer.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/offer/mapper/OfferMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/offer/OfferController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/yxdw_mapper.xml" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/dkpt/mapper/YxdwMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/dkpt/YxdwRepository.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/dkpt/YxdwRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/dkpt/xydw/YxdwManager.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/dkpt/YxdwManagerImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/yxdw/YxdwController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/creditDissent/CreditDissentRepository.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/creditDissent/CreditDissentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/creditDissent/CreditDissentService.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/creditDissent/CreditDissentManagerImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/creditDissent/CreditDissentManager.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/creditDissent/CreditDissentRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/creditDissent/mapper/CreditDissentMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/creditDissent/CreditDissentController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/finenece_mapper.xml" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/finence/mapper/FinenceMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/finence/FinenceRepository.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/finence/FinenceManagerImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/finence/FinenceManager.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/finence/FinenceController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/finence/FinenceRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/auditRecord/AuditRecordController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/xydaselect_mapper.xml" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/xydaSelect/mapper/XydaSelectMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/xydaSelect/XydaSelectRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/xydaSelect/XydaSelectRepository.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/xydaSelect/XydaSelectService.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/xydaSelect/XydaSelectManager.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/xydaselect/XydaSelectManagerImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/service/xydaSelect/XydaSelectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/xydaSelect/XydaSelectController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/test/java/com/bluesky/framework/domain/infrastructure/model/account/QyzrbjjcImplTest.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-common/src/main/java/com/bluesky/framework/finpro/Finpro.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/finpro_mapper.xml" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/finpro/mapper/FinproMapper.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/finpro/FinProInfoController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/test/resources/database/dataset/account.xml" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/util/IDCard.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/FileUpload/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/java/com/bluesky/framework/boot/FrameworkAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/sysParam/SysParamController.java" />
+        <option value="$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/必读.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bluesky-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bluesky-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="bluesky-framework-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bluesky-framework\bluesky-framework-core\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bluesky.framework.domain.infrastructure.model.account" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bluesky.framework.api.util" />
+      <recent name="com.bluesky.framework.finpro" />
+      <recent name="com.bluesky.framework.domain.infrastructure.model.account" />
+      <recent name="com.bluesky.framework.dkpt.qyrzbjjc" />
+      <recent name="com.bluesky.framework.server.dkpt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\for GitHub\bluesky-framework" />
+      <recent name="D:\bluesky-framework\bluesky-framework-core\src\main\java\com\bluesky\framework\domain\infrastructure\service" />
+      <recent name="D:\bluesky-framework\bluesky-framework-core\src\main\java\com\bluesky\framework\domain\infrastructure\model" />
+      <recent name="D:\bluesky-framework\bluesky-framework-core\src\main\java\com\bluesky\framework\domain\service" />
+      <recent name="D:\bluesky-framework\bluesky-framework-server\src\main\java\com\bluesky\framework\server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16774891" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.FrameworkApiApplication">
+    <configuration name="AccountRepositoryImplTest.findByMobile2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bluesky-framework-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluesky.framework.domain.infrastructure.model.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bluesky.framework.domain.infrastructure.model.account" />
+      <option name="MAIN_CLASS_NAME" value="com.bluesky.framework.domain.infrastructure.model.account.AccountRepositoryImplTest" />
+      <option name="METHOD_NAME" value="findByMobile2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditRecordImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bluesky-framework-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluesky.framework.domain.infrastructure.model.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bluesky.framework.domain.infrastructure.model.account" />
+      <option name="MAIN_CLASS_NAME" value="com.bluesky.framework.domain.infrastructure.model.account.AuditRecordImplTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YxdwRepositoryImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bluesky-framework-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluesky.framework.domain.infrastructure.model.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bluesky.framework.domain.infrastructure.model.account" />
+      <option name="MAIN_CLASS_NAME" value="com.bluesky.framework.domain.infrastructure.model.account.YxdwRepositoryImplTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YxdwRepositoryImplTest.findByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bluesky-framework-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluesky.framework.domain.infrastructure.model.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bluesky.framework.domain.infrastructure.model.account" />
+      <option name="MAIN_CLASS_NAME" value="com.bluesky.framework.domain.infrastructure.model.account.YxdwRepositoryImplTest" />
+      <option name="METHOD_NAME" value="findByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YxdwRepositoryImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bluesky-framework-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bluesky.framework.domain.infrastructure.model.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bluesky.framework.domain.infrastructure.model.account" />
+      <option name="MAIN_CLASS_NAME" value="com.bluesky.framework.domain.infrastructure.model.account.YxdwRepositoryImplTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameworkApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bluesky-framework-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bluesky.framework.api.FrameworkApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameworkServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bluesky-framework-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bluesky.framework.FrameworkServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AuditRecordImplTest.findOne" />
+      <item itemvalue="JUnit.YxdwRepositoryImplTest.findAll" />
+      <item itemvalue="JUnit.YxdwRepositoryImplTest.findByIds" />
+      <item itemvalue="JUnit.YxdwRepositoryImplTest.findOne" />
+      <item itemvalue="JUnit.AccountRepositoryImplTest.findByMobile2" />
+      <item itemvalue="Spring Boot.FrameworkServerApplication" />
+      <item itemvalue="Spring Boot.FrameworkApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountRepositoryImplTest.findByMobile2" />
+        <item itemvalue="JUnit.YxdwRepositoryImplTest.findAll" />
+        <item itemvalue="JUnit.YxdwRepositoryImplTest.findOne" />
+        <item itemvalue="JUnit.AuditRecordImplTest.findOne" />
+        <item itemvalue="JUnit.YxdwRepositoryImplTest.findByIds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e7f89b1-3683-460a-8572-1f96c3a4fca9" name="Default Changelist" comment="" />
+      <created>1563175071404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563175071404</updated>
+      <workItem from="1563175076260" duration="3764000" />
+      <workItem from="1563179162756" duration="3006000" />
+      <workItem from="1563185117883" duration="3238000" />
+      <workItem from="1563237432365" duration="32958000" />
+      <workItem from="1563323845670" duration="4482000" />
+      <workItem from="1563328488312" duration="14182000" />
+      <workItem from="1563348224494" duration="380000" />
+      <workItem from="1563348762469" duration="1099000" />
+      <workItem from="1563349889172" duration="448000" />
+      <workItem from="1563350361285" duration="262000" />
+      <workItem from="1563350649854" duration="6598000" />
+      <workItem from="1563409810469" duration="5896000" />
+      <workItem from="1563418529964" duration="25807000" />
+      <workItem from="1563496678214" duration="2753000" />
+      <workItem from="1563505507894" duration="23846000" />
+      <workItem from="1563585227533" duration="39330000" />
+      <workItem from="1563646535244" duration="255000" />
+      <workItem from="1563678091944" duration="17252000" />
+      <workItem from="1563756279356" duration="10441000" />
+      <workItem from="1563841943168" duration="30775000" />
+      <workItem from="1563928465370" duration="24727000" />
+      <workItem from="1564014524947" duration="25535000" />
+      <workItem from="1564101135760" duration="10993000" />
+      <workItem from="1564360707909" duration="13899000" />
+      <workItem from="1564447187718" duration="18845000" />
+      <workItem from="1564533728173" duration="575000" />
+      <workItem from="1564534319511" duration="30231000" />
+      <workItem from="1564619428894" duration="19541000" />
+      <workItem from="1564705855062" duration="14940000" />
+      <workItem from="1564965746639" duration="4666000" />
+      <workItem from="1565052442802" duration="4854000" />
+      <workItem from="1565138083636" duration="4137000" />
+      <workItem from="1565224769295" duration="16219000" />
+      <workItem from="1565311062400" duration="9159000" />
+      <workItem from="1565570088573" duration="16920000" />
+      <workItem from="1565656461316" duration="10542000" />
+      <workItem from="1565742592648" duration="10288000" />
+      <workItem from="1565829118479" duration="8530000" />
+      <workItem from="1565915499773" duration="4168000" />
+      <workItem from="1566175782117" duration="9399000" />
+      <workItem from="1566261273659" duration="3273000" />
+      <workItem from="1566347709465" duration="4453000" />
+      <workItem from="1566433911481" duration="2406000" />
+      <workItem from="1566520213293" duration="2991000" />
+      <workItem from="1566780299463" duration="20249000" />
+      <workItem from="1566866407823" duration="2452000" />
+      <workItem from="1566886836881" duration="311000" />
+      <workItem from="1567995684474" duration="1506000" />
+      <workItem from="1570505144684" duration="9565000" />
+      <workItem from="1570844073735" duration="2714000" />
+      <workItem from="1576663040891" duration="246000" />
+      <workItem from="1578299239041" duration="769000" />
+      <workItem from="1578359141394" duration="150000" />
+      <workItem from="1578359858592" duration="12075000" />
+      <workItem from="1578460025686" duration="52000" />
+      <workItem from="1578460125150" duration="4542000" />
+    </task>
+    <task id="LOCAL-00011">
+      <created>1563448663960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563448663960</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1563514484574</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563514484574</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1563514889327</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563514889327</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1563530375157</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563530375157</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1563530451058</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563530451058</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1563541982368</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563541982368</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1563590349542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563590349542</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1563611961131</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563611961131</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1563616529384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563616529385</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1563646668678</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563646668678</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1563682566025</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1563682566025</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1563689072121</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563689072121</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1563696869573</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563696869573</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1563774111310</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563774111310</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1563942133631</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563942133631</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1563957561712</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563957561712</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1563957759543</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563957759543</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1563957784750</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563957784750</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1564037091344</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564037091344</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1564037130325</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1564037130325</updated>
+    </task>
+    <task id="LOCAL-00031" summary="信用异议处理 1.审核（只增加了审核记录没有改变审核状态） 2.查看审核记录">
+      <created>1564118097624</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1564118097624</updated>
+    </task>
+    <task id="LOCAL-00032" summary="修正了新增用信单位用户返回的id值">
+      <created>1564454852022</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1564454852022</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1564455021759</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1564455021759</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1564534270864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564534270864</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1564540451605</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564540451605</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1564567954567</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1564567954568</updated>
+    </task>
+    <task id="LOCAL-00037" summary="信用异议处理 1.审核（只增加了审核记录没有改变审核状态） 2.查看审核记录">
+      <created>1564568229015</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1564568229015</updated>
+    </task>
+    <task id="LOCAL-00038" summary="信用异议处理 1.审核（只增加了审核记录没有改变审核状态） 2.查看审核记录">
+      <created>1564571717654</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1564571717654</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1564620684781</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1564620684781</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1564626544449</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1564626544450</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1564644226585</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1564644226586</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1564708965347</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1564708965347</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1564709111786</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1564709111786</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1564724670996</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1564724670996</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1564731373678</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1564731373678</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1564731632189</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1564731632189</updated>
+    </task>
+    <task id="LOCAL-00047" summary="修改抢单融资的流程">
+      <created>1565255371613</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1565255371614</updated>
+    </task>
+    <task id="LOCAL-00048" summary="新增用信单位搜索功能">
+      <created>1565587269494</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1565587269494</updated>
+    </task>
+    <task id="LOCAL-00049" summary="新增两个搜索功能">
+      <created>1565601673491</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565601673491</updated>
+    </task>
+    <task id="LOCAL-00050" summary="新增搜索功能">
+      <created>1565656952847</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1565656952848</updated>
+    </task>
+    <task id="LOCAL-00051" summary="新增搜索功能">
+      <created>1565664551781</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1565664551781</updated>
+    </task>
+    <task id="LOCAL-00052" summary="金融产品新增4个字段">
+      <created>1565831388109</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1565831388110</updated>
+    </task>
+    <task id="LOCAL-00053">
+      <created>1565851560081</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565851560081</updated>
+    </task>
+    <task id="LOCAL-00054" summary="初始化">
+      <created>1578368610137</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1578368610138</updated>
+    </task>
+    <task id="LOCAL-00055" summary="初始化">
+      <created>1578382118794</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1578382118794</updated>
+    </task>
+    <task id="LOCAL-00056" summary="·测试上传">
+      <created>1578460423404</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1578460423405</updated>
+    </task>
+    <task id="LOCAL-00057" summary="·初始化上传">
+      <created>1578461021954</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1578461021954</updated>
+    </task>
+    <task id="LOCAL-00058" summary="·初始化上传api">
+      <created>1578463643268</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1578463643268</updated>
+    </task>
+    <task id="LOCAL-00059" summary="·初始化上传api">
+      <created>1578464469988</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464469988</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="YxdwRepositoryImplTest_findByIds - 2019.07.18 at 09h 13m 39s.xml">
+      <configuration name="YxdwRepositoryImplTest.findByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountRepositoryImplTest_batchUpdateStatusByMobile - 2019.07.18 at 09h 30m 55s.xml">
+      <configuration name="AccountRepositoryImplTest.batchUpdateStatusByMobile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YxdwRepositoryImplTest_findByIds - 2019.07.18 at 13h 40m 59s.xml">
+      <configuration name="YxdwRepositoryImplTest.findByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YxdwRepositoryImplTest_findOne - 2019.07.18 at 13h 57m 14s.xml">
+      <configuration name="YxdwRepositoryImplTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuditRecordImplTest_findOne - 2019.07.18 at 13h 59m 19s.xml">
+      <configuration name="AuditRecordImplTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YxdwRepositoryImplTest_findOne - 2019.07.18 at 15h 05m 11s.xml">
+      <configuration name="YxdwRepositoryImplTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YxdwRepositoryImplTest_findAll - 2019.07.19 at 12h 23m 05s.xml">
+      <configuration name="YxdwRepositoryImplTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountRepositoryImplTest_findByMobile2 - 2019.08.01 at 08h 59m 25s.xml">
+      <configuration name="AccountRepositoryImplTest.findByMobile2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountRepositoryImplTest_findByMobile2 - 2019.08.01 at 09h 32m 24s.xml">
+      <configuration name="AccountRepositoryImplTest.findByMobile2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountRepositoryImplTest_findByMobile2 - 2019.08.01 at 09h 33m 05s.xml">
+      <configuration name="AccountRepositoryImplTest.findByMobile2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="552694000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49797022" visible="true" weight="0.3001066" />
+      <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.25426438" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5020298" side_tool="true" weight="0.20255864" />
+      <window_info id="Web" order="7" sideWeight="0.50075644" side_tool="true" weight="0.25426438" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32502708" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3445287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32462686" side_tool="true" weight="0.62147504" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.18309858" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" weight="0.17678958" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.67537314" weight="0.22125813" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="16" weight="0.659436" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.21055438" />
+      <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.25426438" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50075644" side_tool="true" weight="0.25426438" />
+      <window_info id="Web" order="7" sideWeight="0.50075644" side_tool="true" weight="0.25426438" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3445287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32462686" side_tool="true" weight="0.6218852" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" weight="0.3347779" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.67537314" visible="true" weight="0.33802816" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="修正了新增用信单位用户返回的id值" />
+    <MESSAGE value="信用异议处理 1.审核（只增加了审核记录没有改变审核状态） 2.查看审核记录" />
+    <MESSAGE value="修改抢单融资的流程" />
+    <MESSAGE value="新增两个搜索功能" />
+    <MESSAGE value="新增搜索功能" />
+    <MESSAGE value="金融产品新增4个字段" />
+    <MESSAGE value="新增用信单位搜索功能" />
+    <MESSAGE value="初始化" />
+    <MESSAGE value="·测试上传" />
+    <MESSAGE value="·初始化上传" />
+    <MESSAGE value="·初始化上传api" />
+    <option name="LAST_COMMIT_MESSAGE" value="·初始化上传api" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/infrastructure/model/handleRecord/HandleRecordRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/model/DirectoryManage/DirectoryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/java/com/bluesky/framework/boot/FrameworkAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/audit_record_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/company_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/companyrz_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/credit_dissent_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/credit_table_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/article_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/organization_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/PageSettingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/DirectoryManage/DirectoryManagerImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.2.RELEASE/spring-security-config-4.2.2.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="49" column="77" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-spring-boot-starter/src/main/java/com/bluesky/framework/boot/.#FrameworkAutoConfiguration.java.1.1.1.1" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/offer_mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_authority_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_login_log_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/account_operate_log_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-server/src/main/java/com/bluesky/framework/server/account/AccountAuthorityManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/java/com/bluesky/framework/domain/service/account/AccountAuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis/region_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-core/src/main/resources/bluesky/framework/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/必读.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="368">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/application/FrameworkApiErrors.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/account/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/account/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/article/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/auth/AccountAuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/auth/RoleAuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/common/FrameworkSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/common/IPUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/config/SystemConfigController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/FileUpload/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/log/LogController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/organization/OrganizationController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/Region/RegionController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/role/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/setting/MenuSourceController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/setting/PageSettingController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/controller/sysParam/SysParamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/event/LogEventProcessor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/util/IDCard.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/FrameworkApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/resources/i18n/FrameworkApiErrors_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/bluesky-framework-api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluesky-framework-api/src/main/java/com/bluesky/framework/api/util/SendData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|bluesky-framework-core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

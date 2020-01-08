@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.bluesky.common:bluesky-core-common:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bluesky/common/bluesky-core-common/1.0.0-SNAPSHOT/bluesky-core-common-1.0.0-20190710.064654-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bluesky/common/bluesky-core-common/1.0.0-SNAPSHOT/bluesky-core-common-1.0.0-20190710.064654-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bluesky/common/bluesky-core-common/1.0.0-SNAPSHOT/bluesky-core-common-1.0.0-20190710.064654-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
