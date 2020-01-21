@@ -1,6 +1,22 @@
 快速开发框架
 ===========
 
+### 相关文件
+* jar包
+```
+因有些jar包是自己写过的工具类，镜像网站上也不能下到；需自行下载。
+链接：https://pan.baidu.com/s/1U5Xr3b6M2kIBmwVNR-SaAw 
+提取码：916w
+```
+下载成功后，解压到相应的文件夹下。如解压到C:\Users\user\.m2\repository
+
+* 数据库
+```
+改框架本身带有一定的功能模块，请自行下载sql文件建立数据库表
+链接：https://pan.baidu.com/s/1yhuVN-r9NvDRpGxIMUghRw 
+提取码：0pog 
+```
+
 ### maven打包命令
 * server与api一起打包
 ```
