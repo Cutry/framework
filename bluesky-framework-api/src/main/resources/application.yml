@@ -16,6 +16,23 @@ spring:
             max-file-size: 20Mb
             max-request-size: 100Mb
 
+    rabbitmq:
+        host: dubbo.bluesky.net
+        port: 5672
+        username: guest
+        password: guest
+        virtual-host: /
+        listener:
+            simple:
+                #acknowledge-mode: manual #设置确认模式手工确认
+                concurrency: 3 #消费者最小数量
+                max-concurrency: 10 # 消费者最大数量
+                prefetch: 5 #每个消费者每次监听时可拉取处理的消息数量
+
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/test
+
 # info
 info:
     domain: localhost
